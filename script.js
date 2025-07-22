@@ -1,2 +1,2 @@
-// Placeholder for future interactivity
-console.log("Website loaded successfully.");
+// Placeholder for interactivity
+console.log("Website ready with sidebar!");
