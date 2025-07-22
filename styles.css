@@ -1,22 +1,12 @@
 body{margin:0;font-family:'Segoe UI',Tahoma,sans-serif;line-height:1.6;color:#333;background:#fafafa}
-h1,h2{font-family:'Trebuchet MS',sans-serif;color:#222}
-.with-sidebar{display:flex;min-height:100vh}
-.sidebar{width:240px;background:#1e1e2f;color:#fff;padding:20px;box-sizing:border-box;position:sticky;top:0;height:100vh}
-.sidebar h2{margin-top:0;color:#ffdf6c}
-.sidebar ul{list-style:none;padding:0}
-.sidebar ul li{margin:10px 0}
-.sidebar ul li a{text-decoration:none;color:#fff;display:block;padding:8px;border-radius:4px;transition:background 0.3s}
-.sidebar ul li a:hover,.sidebar ul li a.active{background:#33334d}
-.sidebar-links{margin-top:20px;border-top:1px solid #555;padding-top:10px;font-size:0.9em}
-.sidebar-links a{color:#ffd580;text-decoration:none}
-.sidebar-links a:hover{text-decoration:underline}
-.content{flex:1;padding:40px;box-sizing:border-box}
+h1{font-family:'Trebuchet MS',sans-serif;color:#222}
+.content{padding:40px;max-width:900px;margin:auto;text-align:center}
 .profile-pic{width:180px;border-radius:50%;margin:20px 0}
-footer{text-align:center;padding:20px;background:#222;color:#ccc;font-size:0.9rem}
-footer a{text-decoration:none;color:#ffdf6c}
-footer a:hover{text-decoration:underline}
-@media(max-width:768px){.with-sidebar{flex-direction:column}.sidebar{width:100%;height:auto;position:relative}}
+.main-nav{margin-top:20px;display:flex;flex-wrap:wrap;justify-content:center;gap:15px}
+.main-nav a{text-decoration:none;background:#0077cc;color:white;padding:10px 15px;border-radius:4px;transition:background-color 0.3s}
+.main-nav a:hover{background:#005fa3}
+footer{text-align:center;padding:20px;background:#222;color:#ccc;font-size:0.9rem;margin-top:40px}
 .dropdown-btn{background-color:#0077cc;color:white;padding:12px;font-size:16px;border:none;width:100%;text-align:left;cursor:pointer;margin-top:10px;border-radius:4px;transition:background-color 0.3s}
 .dropdown-btn:hover{background-color:#005fa3}
-.dropdown-content{max-height:0;overflow:hidden;transition:max-height 0.4s ease-out,padding 0.3s ease;background:#f9f9f9;padding:0 10px;border-left:3px solid #0077cc;margin-bottom:10px}
+.dropdown-content{max-height:0;overflow:hidden;transition:max-height 0.4s ease-out,padding 0.3s ease;background:#f9f9f9;padding:0 10px;border-left:3px solid #0077cc;margin-bottom:10px;text-align:left}
 .dropdown-content.open{max-height:500px;padding:10px}
