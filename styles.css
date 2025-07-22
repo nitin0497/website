@@ -16,32 +16,7 @@ footer{text-align:center;padding:20px;background:#222;color:#ccc;font-size:0.9re
 footer a{text-decoration:none;color:#ffdf6c}
 footer a:hover{text-decoration:underline}
 @media(max-width:768px){.with-sidebar{flex-direction:column}.sidebar{width:100%;height:auto;position:relative}}
-
-/* Dropdown styles with animation */
-.dropdown-btn {
-  background-color:#0077cc;
-  color:white;
-  padding:12px;
-  font-size:16px;
-  border:none;
-  width:100%;
-  text-align:left;
-  cursor:pointer;
-  margin-top:10px;
-  border-radius:4px;
-  transition:background-color 0.3s;
-}
-.dropdown-btn:hover {background-color:#005fa3;}
-.dropdown-content {
-  max-height:0;
-  overflow:hidden;
-  transition:max-height 0.4s ease-out, padding 0.3s ease;
-  background:#f9f9f9;
-  padding:0 10px;
-  border-left:3px solid #0077cc;
-  margin-bottom:10px;
-}
-.dropdown-content.open {
-  max-height:500px;
-  padding:10px;
-}
+.dropdown-btn{background-color:#0077cc;color:white;padding:12px;font-size:16px;border:none;width:100%;text-align:left;cursor:pointer;margin-top:10px;border-radius:4px;transition:background-color 0.3s}
+.dropdown-btn:hover{background-color:#005fa3}
+.dropdown-content{max-height:0;overflow:hidden;transition:max-height 0.4s ease-out,padding 0.3s ease;background:#f9f9f9;padding:0 10px;border-left:3px solid #0077cc;margin-bottom:10px}
+.dropdown-content.open{max-height:500px;padding:10px}

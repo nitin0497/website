@@ -1,9 +1,9 @@
 
 document.addEventListener('DOMContentLoaded', function(){
-  const buttons = document.querySelectorAll('.dropdown-btn');
-  buttons.forEach(btn => {
-    btn.addEventListener('click', function(){
-      const content = this.nextElementSibling;
+  document.querySelectorAll('.dropdown-btn').forEach(btn=>{
+    btn.addEventListener('click',()=>{
+      btn.classList.toggle('active');
+      const content = btn.nextElementSibling;
       content.classList.toggle('open');
     });
   });
